@@ -307,10 +307,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Turborepo Cache Server
-        uses: brunojppb/turbo-cache-server@1.0.24
+        uses: brunojppb/turbo-cache-server@2.0.2
         env:
           PORT: "8585"
           S3_BUCKET_NAME: your-bucket-name-here
