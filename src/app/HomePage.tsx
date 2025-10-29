@@ -310,7 +310,7 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Turborepo Cache Server
-        uses: brunojppb/turbo-cache-server@2.0.2
+        uses: brunojppb/turbo-cache-server@2.0.5
         env:
           PORT: "8585"
           S3_BUCKET_NAME: your-bucket-name-here
